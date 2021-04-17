@@ -3,4 +3,11 @@ for (let index = 0; index < 4; index++) {
     basic.pause(500)
     pins.servoWritePin(AnalogPin.P0, 0)
     basic.pause(500)
+    basic.showLeds(`
+        # . . . .
+        . # . . .
+        . . # . .
+        . . . # .
+        . . . . #
+        `)
 }
